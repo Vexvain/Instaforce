@@ -1,8 +1,6 @@
 '''
-Date: 3/15/2019
-Author: Mohamed
-Description: Reads a file that contains a list of proxies and determines whether or not that list is good.
-             Each line in the file must be in the format of ip:port
+VEXVAIN 
+
 '''
 
 import platform
