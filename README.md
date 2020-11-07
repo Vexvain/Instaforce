@@ -4,13 +4,13 @@
 
 -------------------------------------------------
 
-### Install Dependencies
+# Install Dependencies
 
 ```
 pip3 install -r requirements.txt
 ```
 
-### Usage
+# Usage
 
 ```
 python3 instaforce.py <username> <wordlist> -m <mode>
@@ -19,14 +19,14 @@ python3 instaforce.py <username> <wordlist> -m <mode>
 ***If you don't specify a mode, it'll automatically be set to mode 2*** :upside_down_face:
 
 
-### Bots(Threads)
+# Bots(Threads)
 
 -   4 bots: 64 passwords at a time
 -   8 bots: 128 passwords at a time
 -   16 bots: 256 passwords at a time
 -   32 bots: 512 passwords at a time
 
-### Modes
+# Modes
 
 -   0: 32 bots
 -   1: 16 bots
@@ -34,7 +34,7 @@ python3 instaforce.py <username> <wordlist> -m <mode>
 -   3: 4 bots
 
 
-### Help
+# Help
 
 ```
 vexvain@kali:~/Desktop/Instaforce$ python3 instaforce.py -h
