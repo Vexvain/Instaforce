@@ -1,6 +1,4 @@
-# 12/29/2018
-# Author: Mohamed
-# Description: Display
+# VEXVAIN
 
 from os import system
 from time import sleep
@@ -42,31 +40,31 @@ class Display(object):
 
         if self.__is_color:
             print('{0}[{1}-{0}] {1}Wordlist: {2}{3}{4}'.format(
-                Fore.YELLOW, Fore.WHITE, Fore.CYAN, self.passlist, Fore.RESET
+                Fore.RED, Fore.WHITE, Fore.MAGENTA, self.passlist, Fore.RESET
             ))
 
             print('{0}[{1}-{0}] {1}Username: {2}{3}{4}'.format(
-                Fore.YELLOW, Fore.WHITE, Fore.CYAN, self.username.title(), Fore.RESET
+                Fore.RED, Fore.WHITE, Fore.MAGENTA, self.username.title(), Fore.RESET
             ))
 
             print('{0}[{1}-{0}] {1}Password: {2}{3}{4}'.format(
-                Fore.YELLOW, Fore.WHITE, Fore.CYAN, password, Fore.RESET
+                Fore.RED, Fore.WHITE, Fore.MAGENTA, password, Fore.RESET
             ))
 
             print('{0}[{1}-{0}] {1}Complete: {2}{3}%{4}'.format(
-                Fore.YELLOW, Fore.WHITE, Fore.CYAN, complete, Fore.RESET
+                Fore.RED, Fore.WHITE, Fore.MAGENTA, complete, Fore.RESET
             ))
 
             print('{0}[{1}-{0}] {1}Attempts: {2}{3}{4}'.format(
-                Fore.YELLOW, Fore.WHITE, Fore.CYAN, attempts, Fore.RESET
+                Fore.RED, Fore.WHITE, Fore.MAGENTA, attempts, Fore.RESET
             ))
 
             print('{0}[{1}-{0}] {1}Browsers: {2}{3}{4}'.format(
-                Fore.YELLOW, Fore.WHITE, Fore.CYAN, browsers, Fore.RESET
+                Fore.RED, Fore.WHITE, Fore.MAGENTA, browsers, Fore.RESET
             ))
 
             print('{0}[{1}-{0}] {1}Exists: {2}{3}{4}'.format(
-                Fore.YELLOW, Fore.WHITE, Fore.CYAN, account_exists, Fore.RESET
+                Fore.RED, Fore.WHITE, Fore.MAGENTA, account_exists, Fore.RESET
             ))
 
         else:
@@ -84,15 +82,15 @@ class Display(object):
 
         if self.__is_color:
             print('\n{0}[{1}!{0}] {2}Password Found{3}'.format(
-                Fore.YELLOW, Fore.RED, Fore.WHITE, Fore.RESET
+                Fore.RED, Fore.GREEN, Fore.WHITE, Fore.RESET
             ))
 
             print('{0}[{1}+{0}] {2}Username: {1}{3}{4}'.format(
-                Fore.YELLOW, Fore.GREEN, Fore.WHITE, self.username.title(), Fore.RESET
+                Fore.RED, Fore.GREEN, Fore.WHITE, self.username.title(), Fore.RESET
             ))
 
             print('{0}[{1}+{0}] {2}Password: {1}{3}{4}'.format(
-                Fore.YELLOW, Fore.GREEN, Fore.WHITE, password, Fore.RESET
+                Fore.RED, Fore.GREEN, Fore.WHITE, password, Fore.RESET
             ))
         else:
             print('\n[!] Password Found\n[+] Username: {}\n[+] Password: {}'.format(
@@ -106,7 +104,7 @@ class Display(object):
 
         if self.__is_color:
             print('\n{0}[{1}!{0}] {2}Password Not Found{3}'.format(
-                Fore.YELLOW, Fore.RED, Fore.WHITE, Fore.RESET
+                Fore.RED, Fore.GREEN, Fore.WHITE, Fore.RESET
             ))
         else:
             print('\n[!] Password Not Found')
@@ -118,7 +116,7 @@ class Display(object):
 
         if self.__is_color:
             print('\n{0}[{1}!{0}] {2}Shutting Down ...{3}'.format(
-                Fore.YELLOW, Fore.RED, Fore.WHITE, Fore.RESET
+                Fore.RED, Fore.GREEN, Fore.WHITE, Fore.RESET
             ))
         else:
             print('\n[!] Shutting Down ...')
@@ -130,7 +128,7 @@ class Display(object):
 
         if self.__is_color:
             print('{0}[{1}i{0}] {2}{3}{4}'.format(
-                Fore.YELLOW, Fore.CYAN, Fore.WHITE, msg, Fore.RESET
+                Fore.RED, Fore.MAGENTA, Fore.WHITE, msg, Fore.RESET
             ))
         else:
             print('[i] {}'.format(msg))
@@ -142,7 +140,7 @@ class Display(object):
 
         if self.__is_color:
             print('{0}[{1}!{0}] {1}{2}{3}'.format(
-                Fore.YELLOW, Fore.RED, msg, Fore.RESET
+                Fore.RED, Fore.GREEN, msg, Fore.RESET
             ))
         else:
             print('[!] {}'.format(msg))
@@ -154,7 +152,7 @@ class Display(object):
 
         if self.__is_color:
             return input('{0}[{1}?{0}] {2}{3}{4}'.format(
-                Fore.YELLOW, Fore.CYAN, Fore.WHITE, data, Fore.RESET
+                Fore.RED, Fore.MAGENTA, Fore.WHITE, data, Fore.RESET
             ))
         else:
             return input('[?] {}'.format(data))
