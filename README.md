@@ -19,7 +19,7 @@ python3 instaforce.py <username> <wordlist> -m <mode>
 ***If you don't specify a mode, it'll automatically be set to mode 2*** :upside_down_face:
 
 
-# Bots(Threads)
+# Bots (Threads)
 
 -   4 bots: 64 passwords at a time
 -   8 bots: 128 passwords at a time
@@ -48,3 +48,17 @@ optional arguments:
   -h, --help            show this help message and exit
   -m MODE, --mode MODE  modes: 0 => 32 bots; 1 => 16 bots; 2 => 8 bots; 3 => 4 bots
 ```
+
+# NOTICE
+If for some reason the proxies aren't working at masking your identity, I've made a little script to help
+
+Do these commands: <br/>
+`chmod +x TOR.sh` <br/>
+and <br/>
+`./TOR.sh` <br/>
+
+After TOR.sh installs what it needs to, use any of the following commands: <br/>
+`torghost -s` to start <br/>
+`torghost -x` to stop <br/>
+`torghost -r` to get a new tor exit node <br/>
+`torghost -u` to update torghost
