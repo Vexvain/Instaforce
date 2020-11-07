@@ -1,6 +1,4 @@
-# Date: 12/29/2018
-# Author: Mohamed
-# Description: Instagram bruter
+# VEXVAIN
 
 from sys import exit
 from os.path import exists
@@ -36,7 +34,7 @@ class Engine(object):
         )
 
     def get_user_resp(self):
-        return self.display.prompt('Would you like to resume the attack? [y/n]: ')
+        return self.display.prompt('Do you wanna resume the attack? [y/n]: ')
 
     def write_to_file(self, password):
         with open(credentials, 'at') as f:
