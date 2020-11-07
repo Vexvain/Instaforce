@@ -1,4 +1,4 @@
-![](https://i.ibb.co/CBcNLTh/image.png)
+![](https://i.ibb.co/CBcNLTh/image.png) <br/>
 [![Version](https://img.shields.io/badge/Version-v1.0-red)]()
 [![Python](https://img.shields.io/badge/Python-v3.6%2B-black)]()
 
