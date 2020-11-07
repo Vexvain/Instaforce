@@ -1,6 +1,4 @@
-# Date: 12/28/2018
-# Author: Mohamed
-# Description: Proxy scraper
+# VEXVAIN
 
 from time import sleep
 from requests import get
