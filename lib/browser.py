@@ -1,6 +1,4 @@
-# Date: 12/28/2018
-# Author: Mohamed
-# Description: Browser
+# VEXVAIN
 
 from time import time
 from requests import Session
@@ -41,7 +39,7 @@ class Browser(object):
             pass
 
     def post_data(self):
-        enc_password = '#PWD_INSTAGRAM_BROWSER:0:{}:{}'.format(
+        enc_password = '#PWD_INSTAFORCE_BROWSER:0:{}:{}'.format(
             int(datetime.now().timestamp()), self.password)
 
         data = {
